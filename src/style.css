@@ -318,3 +318,56 @@ header .menu .menu-item a:hover {
 .data-view-item h4 {
     margin: 0;
 }
+
+/* Feature Section */
+
+.feature-section {
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.feature-img {
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height:  100%;
+}
+
+.feature-img img {
+    margin-top: 100px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    height: 70%;
+    transform: perspective(4cm) rotateY(10deg) rotateX(2deg);
+}
+
+.feature-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+}
+
+.feature-text h1 {
+    font-size: 2.5rem;
+    color: transparent;
+    font-weight: 800;
+    background: linear-gradient(90deg, #9747FF 0%, #FF4DD8 100%);
+    -webkit-background-clip: text;
+    position: relative;
+}
+
+.feature-list-item {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 100%;
+    margin: 30px 0;
+}
+
+.feature-text button {
+    background-color: #9747FF;
+}
