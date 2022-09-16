@@ -5,6 +5,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+body {
+    margin: 0;
+}
+
 header {
     display: flex;
     flex-direction: row;
@@ -15,7 +19,7 @@ header {
     top: 0;
     left: 0;
     z-index: 100;
-    /*shadow*/
+    background-color: white;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
@@ -27,6 +31,11 @@ header .logo {
     align-items: center;
     font-size: 15px;
     color: #000;
+}
+
+header .logo img {
+    height: 60px;
+    width: 60px;
 }
 
 header .logo h1 {
@@ -86,6 +95,7 @@ header .menu .menu-item a:hover {
     height: 100%;
     width: 100%;
     margin: auto;
+    padding: 5px;
     border: 0;
     border-radius: 5px;
 }
@@ -94,3 +104,139 @@ header .menu .menu-item a:hover {
     background-color: #c397fd;
     color: #fff;
 }
+
+.hero {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+}
+
+#blank-space {
+    height: 115px;
+}
+
+.back-hero-text {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.line {
+    height: 1px;
+    width: 200px;
+    margin: auto 10px;
+    background-color: #9747FF;
+}
+
+.back-hero-text h3 {
+    font-size: small;
+    color: #9747FF;
+}
+
+.hero .hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 1.5rem;
+    color: transparent;
+    font-weight: bold;
+    background: linear-gradient(90deg, #9747FF 0%, #FF4DD8 100%);
+    -webkit-background-clip: text;
+    position: relative;
+}
+
+.hero-text h4 {
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+.hero-text button {
+    background-color: #000;
+    color: #fff;
+    font-weight: normal;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.cryptos {
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    background-color: #fff;
+}
+
+
+
+.carousel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    width: 100%;
+    background-color: #000;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin: auto 10px;
+    color: #fff;
+}
+
+.carousel-item .crypt-title {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin: 5px auto ;
+    position: relative;
+    bottom: 20px;
+}
+
+.carousel-item img {
+    height: 50px;
+    width: 50px;
+}
+
+.carousel-item h3 {
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+/*Price crytocurrency  */
+.carousel-item h4 {
+    width: 80%;
+    margin: 0;
+    font-weight: lighter;
+    justify-content: left;
+}
+
+.carousel-item h5 {
+    width: 80%;
+    margin: 2px auto;
+    font-weight: lighter;
+    justify-content: left;
+}
+
+
