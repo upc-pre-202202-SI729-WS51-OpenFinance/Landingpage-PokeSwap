@@ -337,17 +337,17 @@ header .menu .menu-item a:hover {
 }
 
 .feature-img {
-    align-items: center;
-    justify-content: center;
-    width: 30%;
+    display: flex;
+    -ms-flex-align: center;
+    width: 50%;
     height:  100%;
 }
 
 .feature-img img {
-    margin-top: 100px;
+    margin: auto;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     height: 70%;
-    transform: perspective(4cm) rotateY(10deg) rotateX(2deg);
+    /* transform: perspective(4cm) rotateY(10deg) rotateX(2deg); */
 }
 
 .feature-text {
