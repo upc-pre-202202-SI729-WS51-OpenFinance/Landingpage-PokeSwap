@@ -303,7 +303,7 @@ header .menu .menu-item a:hover {
 .about-section .about-img img {
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     left: 100px;
-    height: 70%;
+    height: 200px;
     width: 400px;
     transform: perspective(4cm) rotateY(352deg) rotateX(2deg);
 }
@@ -316,7 +316,6 @@ header .menu .menu-item a:hover {
     width: 100%;
     height: 100px;
     margin: 0;
-    padding: 0;
 }
 
 .data-view-item h1 {
@@ -378,4 +377,75 @@ header .menu .menu-item a:hover {
 
 .feature-text button {
     background-color: #9747FF;
+}
+
+/* help section */
+
+.help-section {
+    width: 100%;
+    display: flex;
+    padding-top: 50px;
+    flex-direction: row;
+}
+
+.help-section .help-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: auto 50px;
+    width: 50%;
+}
+
+.help-section .help-text h1 {
+    font-size: 2.5rem;
+    color: transparent;
+    font-weight: 800;
+    background: linear-gradient(90deg, #9747FF 0%, #FF4DD8 100%);
+    -webkit-background-clip: text;
+    position: relative;
+    padding: 10px;
+}
+
+.help-section .help-text p {
+    font-size: 1rem;
+    font-weight: regular;
+    width: 80%;
+}
+
+.help-boxes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.help-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+    padding: 10px;
+}
+
+.help-box h3 {
+    font-size: 2.5rem;
+    color: transparent;
+    font-weight: 800;
+    background: linear-gradient(90deg, #9747FF 0%, #FF4DD8 100%);
+    -webkit-background-clip: text;
+}
+
+
+.help-section .help-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.help-section .help-img img {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    width: 40vw;
+    transform: rotate(-10deg);
 }
