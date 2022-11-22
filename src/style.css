@@ -113,6 +113,7 @@ header .menu .menu-item a:hover {
 .btn-open-account button:hover {
     background-color: #c397fd;
     color: #fff;
+    text-decoration: none;
 }
 
 
